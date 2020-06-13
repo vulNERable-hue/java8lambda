@@ -13,3 +13,15 @@ public class Greet {
 //      or  app.greet(() -> System.out.println("Hello World lambda"));
     }
 }
+
+
+// Before Lambda's - old way of doing
+
+/*
+Greeting greet = new Greeting() {
+    @override
+    public void perform() {
+        System.out.println("Hello World Lambda');
+    }
+}
+*/
